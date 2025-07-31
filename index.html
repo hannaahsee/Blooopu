@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hero-container">
+    <!-- Fullscreen background image -->
+    <img alt="Lava Lamps" class="hero-bg" id="hero-image" src="https://freight.cargo.site/t/original/i/C2476404186116783653412570508191/Homepage-BnW.png" />
+
+    <!-- Pinned top-left buttons -->
+    <div class="fixed-nav">
+      <a href="/about" class="btn no-wrap">ABOUT</a>
+      <a href="https://instagram.com/yourusername" target="_blank" class="btn no-wrap">INSTAGRAM</a>
+      <a href="mailto:your.email@example.com" class="btn no-wrap">EMAIL</a>
+    </div>
+
+    <!-- Overlay buttons on top of each lava lamp -->
+    <div class="overlay-btns">
+      <a
+        href="/work"
+        class="btn lamp-btn work"
+        onmouseenter="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/W2477852478068090358446457203615/Color-Middle.PNG';"
+        onmouseleave="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/C2476404186116783653412570508191/Homepage-BnW.png';"
+      >
+        <span class="small-caps">WORK</span> WORK
+      </a>
+
+      <a
+        href="/personal"
+        class="btn lamp-btn personal"
+        onmouseenter="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/W2477852478049643614372747651999/Color-Left.PNG';"
+        onmouseleave="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/C2476404186116783653412570508191/Homepage-BnW.png';"
+      >
+        PERSONAL WORK
+      </a>
+
+      <a
+        href="https://yourshop.com"
+        target="_blank"
+        class="btn lamp-btn shop"
+        onmouseenter="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/A2477852478086537102520166755231/Color-Right.PNG';"
+        onmouseleave="document.getElementById('hero-image').src='https://freight.cargo.site/t/original/i/C2476404186116783653412570508191/Homepage-BnW.png';"
+      >
+        SHOP
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Optional: sparkle effect code can be added here later if you want
+  </script>
+</body>
+</html>
